@@ -14,13 +14,17 @@ $session->age  = "Your Age";  // = $_SESSION['age']  = "Your Age";
 ```
 ## Database Handler (dbHandler.php)
 ### Usage:
-* Change:
-- Table Structure
-- Primary Key Name
-- Table Name
-- Table Schema & Data Type
-- Constructor Parameters
-* Use it:
+
+**Change:**
+
+* Table Structure
+* Primary Key Name
+* Table Name
+* Table Schema & Data Type
+* Constructor Parameters
+
+**Use it:**
+
 ```php
 // Instantiate an Object
 $user = new Users("", "", "", "", "", "", "", "");
